@@ -10,6 +10,9 @@ public class BbsVo {
 	//BbsMapper.xml
 	//bbsList.jsp,bbsAdd.jsp, bbsEdit.jsp
 	
+	
+	
+	
         private int bbsNo;
         private String bbsTitle;
         private String bbsContent;
