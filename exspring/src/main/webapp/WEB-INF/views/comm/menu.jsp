@@ -14,6 +14,8 @@
 		<a href="${pageContext.request.contextPath}/member/add.do" >회원가입</a>
 	</c:if>
 	<c:if test="${loginUser!=null}">
+	 	<a href="${pageContext.request.contextPath}/member/logout.do">회원관리</a> 
+  		<a href="${pageContext.request.contextPath}/bbs/list.do">게시판</a> 
 		<c:out value="${loginUser.memName}" /> 님 | 
 		<a href="${pageContext.request.contextPath}/member/logout.do" >로그아웃</a>
 	</c:if>
